@@ -1,4 +1,4 @@
-This project contains the tests created only for the personal usage. These tests can help validate that none of the critical functionality of the website has been broken.
+This project contains a set of tests developed for personal use. Their purpose is to ensure that no critical functionality of the website is unintentionally broken during development or deployment.
 
 To set the env variable prod/stage and account credantionals use variables in the playwright.config.ts file. 
 
