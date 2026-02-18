@@ -65,6 +65,22 @@ export default defineConfig({
     //   name: 'chromium',
     //   use: { ...devices['Desktop Chrome'] },
     // },
+    // {
+    //   name: 'prod',
+    //   use: { 
+    //     browserName: 'chromium',
+    //     channel: 'chrome',
+    //     ignoreHTTPSErrors: true,
+    //     viewport: {
+    //       width: 1680,
+    //       height: 840
+    //     }, 
+    //     storageState: './.auth/user.json',
+    //     baseURL: 'https://www.transfermarkt.com/'
+    //   },
+    //   dependencies: ['before all'],
+    // },
+    
     {
       name: 'prod',
       use: { 
@@ -76,7 +92,7 @@ export default defineConfig({
           height: 840
         }, 
         storageState: './.auth/user.json',
-        baseURL: 'https://www.transfermarkt.com/'
+        baseURL: 'https://getstarted-dev.ourritual.com/matching'
       },
       dependencies: ['before all'],
     },
